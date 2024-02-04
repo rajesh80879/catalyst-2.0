@@ -5,11 +5,12 @@ This is a project that have user creation and data upload operations.
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/rajesh80879/catalyst.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. make migration:  `django mm user record`
-4. migrate:  `django m`
-5. create superuser: `django csu`
-6. run the project:  `django r`
+2. Create a python env and activate 
+3. Install dependencies: `pip install -r requirements.txt`
+4. make migration:  `python manage.py makemigrations user record`
+5. migrate:  `python manage.py migrate`
+6. create superuser: `python manage.py createsuperuser`
+7. run the project:  `python manage.py runserver`
 
 ## Database and env setup
 
